@@ -2,6 +2,8 @@
 
 Simple watchface for pebble
 
+![simface](https://raw.githubusercontent.com/kandeshvari/simface/master/resources/simface.png)
+
 # Build, Check, Install
         
         pebble build
