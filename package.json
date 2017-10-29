@@ -1,0 +1,58 @@
+{
+    "name": "SimFace",
+    "author": "dimcha",
+    "version": "1.0.0",
+    "keywords": [
+        "pebble-app",
+        "watchface"
+    ],
+    "private": true,
+    "dependencies": {},
+    "pebble": {
+        "displayName": "SimFace",
+        "uuid": "b414f464-8201-4ad2-ba09-19335c6d80ea",
+        "sdkVersion": "3",
+        "enableMultiJS": true,
+        "targetPlatforms": [
+            "aplite",
+            "basalt",
+            "chalk",
+            "diorite"
+        ],
+        "watchapp": {
+            "watchface": true
+        },
+        "messageKeys": [
+            "dummy"
+        ],
+        "resources": {
+            "media": [
+                {
+                    "type": "font",
+                    "name": "DEJAVU_SANS_MONO_46",
+                    "file": "dejavu.ttf"
+                },
+                {
+                    "type": "font",
+                    "name": "ROBOTO_LIGHT_20",
+                    "file": "roboto-condensed.ttf"
+                },
+                {
+                    "type": "font",
+                    "name": "ROBOTO_BOLD_50",
+                    "file": "roboto-bold.ttf"
+                },
+                {
+                    "type": "bitmap",
+                    "name": "BT_ICON",
+                    "file": "bt_20.png"
+                },
+                {
+                    "type": "bitmap",
+                    "name": "QT_ICON",
+                    "file": "silent_20.png"
+                }
+            ]
+        }
+    }
+}
